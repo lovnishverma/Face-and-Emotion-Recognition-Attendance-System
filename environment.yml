@@ -13,4 +13,4 @@ dependencies:
   - streamlit
   - face-recognition
   - pip:
-      - opencv-python
+      - opencv-python-headless
