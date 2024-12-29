@@ -5,7 +5,12 @@ dependencies:
   - python=3.11
   - numpy
   - pandas
-  - scikit-learn
-  - dlib
-  - cmake
+  - opencv
+  - opencv-python-headless
+  - Pillow
+  - keras
+  - tensorflow
   - streamlit
+  - face-recognition
+  - pip:
+      - opencv-python
