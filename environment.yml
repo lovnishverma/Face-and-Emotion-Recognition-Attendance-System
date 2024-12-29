@@ -1,15 +1,21 @@
-name: face-and-emotion-env
+name: face_emotion_env
 channels:
   - conda-forge
+  - defaults
 dependencies:
   - python=3.11
-  - numpy
+  - streamlit
+  - opencv
+  - face_recognition
+  - sqlite
   - pandas
-  - opencv-python-headless
-  - Pillow
+  - numpy
+  - pillow
   - keras
   - tensorflow
-  - streamlit
-  - face-recognition
+  - matplotlib
+  - scikit-learn
+  - pip
   - pip:
-      - opencv-python-headless
+      - streamlit-aggrid
+      - streamlit-webrtc
