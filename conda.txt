@@ -1,0 +1,6 @@
+python=3.11
+cmake
+numpy
+pandas
+dlib
+face_recognition
